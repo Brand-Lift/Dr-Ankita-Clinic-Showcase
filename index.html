@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dr Ankita Clinic – Modern Dental Care in Jaipur</title>
+  <meta name="description" content="Dr Ankita Clinic – Premium dental care on Kalwar Road, Jaipur. Book appointments for teeth cleaning, root canal, implants, braces and more." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ========== SECTION 1: HEADER ========== -->
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a href="#home" class="logo" aria-label="Dr Ankita Clinic Home">
+        <span class="logo-icon">
+          <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <circle cx="18" cy="18" r="18" fill="#0ea5e9" opacity="0.12"/>
+            <path d="M18 6C14 6 10 9.5 10 13.5C10 16 11 18 11 20.5C11 24 12.5 30 14.5 30C16 30 16.5 27 18 27C19.5 27 20 30 21.5 30C23.5 30 25 24 25 20.5C25 18 26 16 26 13.5C26 9.5 22 6 18 6Z" fill="#0ea5e9"/>
+            <path d="M15 13.5C15 12 16 11 18 11C20 11 21 12 21 13.5" stroke="white" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+          </svg>
+        </span>
+        <span class="logo-text">Dr Ankita Clinic</span>
+      </a>
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#treatments" class="nav-link">Treatments</a>
+        <a href="#doctors" class="nav-link">Doctors</a>
+        <a href="#why-us" class="nav-link">Why Us</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+      <a href="#appointment" class="btn btn-primary header-cta">Book Appointment</a>
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ========== SECTION 2: MOBILE MENU OVERLAY ========== -->
+  <div class="mobile-menu-overlay" id="mobileMenu" role="dialog" aria-modal="true" aria-label="Mobile navigation">
+    <button class="menu-close" id="menuClose" aria-label="Close menu">
+      <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><path d="M4 4L24 24M24 4L4 24" stroke="white" stroke-width="2.5" stroke-linecap="round"/></svg>
+    </button>
+    <div class="mobile-menu-logo">
+      <svg width="32" height="32" viewBox="0 0 36 36" fill="none"><circle cx="18" cy="18" r="18" fill="white" opacity="0.15"/><path d="M18 6C14 6 10 9.5 10 13.5C10 16 11 18 11 20.5C11 24 12.5 30 14.5 30C16 30 16.5 27 18 27C19.5 27 20 30 21.5 30C23.5 30 25 24 25 20.5C25 18 26 16 26 13.5C26 9.5 22 6 18 6Z" fill="white"/></svg>
+      <span>Dr Ankita Clinic</span>
+    </div>
+    <nav class="mobile-nav" aria-label="Mobile navigation links">
+      <a href="#home" class="mobile-nav-link" data-delay="0">Home</a>
+      <a href="#about" class="mobile-nav-link" data-delay="1">About</a>
+      <a href="#treatments" class="mobile-nav-link" data-delay="2">Treatments</a>
+      <a href="#doctors" class="mobile-nav-link" data-delay="3">Doctors</a>
+      <a href="#why-us" class="mobile-nav-link" data-delay="4">Why Us</a>
+      <a href="#contact" class="mobile-nav-link" data-delay="5">Contact</a>
+    </nav>
+    <div class="mobile-menu-footer">
+      <a href="tel:+917568394979" class="mobile-phone-link">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M6.6 10.8C7.8 13.2 9.8 15.2 12.2 16.4L14.2 14.4C14.5 14.1 14.9 14 15.3 14.2C16.5 14.6 17.9 14.8 19.2 14.8C19.9 14.8 20.4 15.3 20.4 16V19.2C20.4 19.9 19.9 20.4 19.2 20.4C10.6 20.4 3.6 13.4 3.6 4.8C3.6 4.1 4.1 3.6 4.8 3.6H8C8.7 3.6 9.2 4.1 9.2 4.8C9.2 6.1 9.4 7.4 9.8 8.7C9.9 9.1 9.8 9.5 9.6 9.8L6.6 10.8Z" fill="white"/></svg>
+        +91 75683 94979
+      </a>
+    </div>
+  </div>
+
+  <!-- ========== MAIN CONTENT ========== -->
+  <main id="home">
+
+    <!-- ========== SECTION 3: HERO ========== -->
+    <section class="hero-section" aria-label="Hero">
+      <div class="hero-blob hero-blob-1" aria-hidden="true"></div>
+      <div class="hero-blob hero-blob-2" aria-hidden="true"></div>
+      <div class="container hero-inner">
+
+        <!-- LEFT: Text Content -->
+        <div class="hero-content reveal">
+          <div class="hero-badge">
+            <span class="pulse-dot" aria-hidden="true"></span>
+            Trusted Dental Care · Kalwar Road
+          </div>
+          <h1 class="hero-heading">Modern Dental Care for a Confident, Healthy Smile</h1>
+          <p class="hero-subtext">Dr Ankita Clinic provides expert, compassionate dental care in Jaipur. From routine checkups to advanced treatments — your smile is in expert hands.</p>
+          <div class="hero-btns">
+            <a href="#appointment" class="btn btn-primary">Book Appointment</a>
+            <a href="tel:+917568394979" class="btn btn-outline">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6.6 10.8C7.8 13.2 9.8 15.2 12.2 16.4L14.2 14.4C14.5 14.1 14.9 14 15.3 14.2C16.5 14.6 17.9 14.8 19.2 14.8C19.9 14.8 20.4 15.3 20.4 16V19.2C20.4 19.9 19.9 20.4 19.2 20.4C10.6 20.4 3.6 13.4 3.6 4.8C3.6 4.1 4.1 3.6 4.8 3.6H8C8.7 3.6 9.2 4.1 9.2 4.8C9.2 6.1 9.4 7.4 9.8 8.7C9.9 9.1 9.8 9.5 9.6 9.8L6.6 10.8Z" fill="currentColor"/></svg>
+              Call Now
+            </a>
+          </div>
+          <div class="hero-stats">
+            <div class="stat-item">
+              <span class="stat-number">500+</span>
+              <span class="stat-label">Happy Patients</span>
+            </div>
+            <div class="stat-divider" aria-hidden="true"></div>
+            <div class="stat-item">
+              <span class="stat-number">10+</span>
+              <span class="stat-label">Years Experience</span>
+            </div>
+            <div class="stat-divider" aria-hidden="true"></div>
+            <div class="stat-item">
+              <span class="stat-number">6+</span>
+              <span class="stat-label">Treatments</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- RIGHT: Image Cards -->
+        <div class="hero-images reveal">
+          <div class="hero-card hero-card-tall">
+            <!-- IMAGE: Replace HERO_DOCTOR_IMAGE with your image URL -->
+            <!-- EXAMPLE: src="https://i.ibb.co/abc123/doctor-photo.jpg" -->
+            <img src="HERO_DOCTOR_IMAGE" alt="Dr Ankita – Lead Dentist at Dr Ankita Clinic, Jaipur" class="hero-img" loading="lazy" onerror="this.style.display='none'" />
+            <div class="hero-img-placeholder" aria-hidden="true"></div>
+            <div class="hero-card-badge">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#22c55e"/><path d="M8 12L11 15L16 9" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Dr. Ankita
+            </div>
+          </div>
+          <div class="hero-card hero-card-short">
+            <!-- IMAGE: Replace HERO_CLINIC_IMAGE with your image URL -->
+            <!-- EXAMPLE: src="https://i.ibb.co/abc123/clinic-photo.jpg" -->
+            <img src="HERO_CLINIC_IMAGE" alt="Dr Ankita Clinic – Modern dental facility in Jaipur" class="hero-img" loading="lazy" onerror="this.style.display='none'" />
+            <div class="hero-img-placeholder" aria-hidden="true"></div>
+            <div class="hero-card-badge">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 9.5L12 3L21 9.5V20C21 20.6 20.6 21 20 21H15V15H9V21H4C3.4 21 3 20.6 3 20V9.5Z" fill="#0ea5e9"/></svg>
+              Our Clinic
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>    <!-- ========== SECTION 4: TRUST BAR ========== -->
+    <section class="trust-bar" aria-label="Trust indicators">
+      <div class="container trust-bar-inner">
+        <div class="trust-item reveal">
+          <div class="trust-icon-wrap">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 2L4 6V12C4 16.4 7.4 20.5 12 22C16.6 20.5 20 16.4 20 12V6L12 2Z" fill="#0ea5e9" opacity="0.15"/><path d="M12 2L4 6V12C4 16.4 7.4 20.5 12 22C16.6 20.5 20 16.4 20 12V6L12 2Z" stroke="#0ea5e9" stroke-width="1.8" stroke-linejoin="round"/></svg>
+          </div>
+          <div class="trust-text">
+            <strong>Experienced Care</strong>
+            <span>Trusted by 500+ patients</span>
+          </div>
+        </div>
+        <div class="trust-item reveal">
+          <div class="trust-icon-wrap">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#0ea5e9" opacity="0.15"/><circle cx="12" cy="12" r="10" stroke="#0ea5e9" stroke-width="1.8"/><path d="M8 12L11 15L16 9" stroke="#0ea5e9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <div class="trust-text">
+            <strong>Modern Equipment</strong>
+            <span>Advanced dental technology</span>
+          </div>
+        </div>
+        <div class="trust-item reveal">
+          <div class="trust-icon-wrap">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 21C12 21 4 16 4 9.5C4 7 6 5 8.5 5C10 5 11.3 5.7 12 6.8C12.7 5.7 14 5 15.5 5C18 5 20 7 20 9.5C20 16 12 21 12 21Z" fill="#0ea5e9" opacity="0.15" stroke="#0ea5e9" stroke-width="1.8" stroke-linejoin="round"/></svg>
+          </div>
+          <div class="trust-text">
+            <strong>Patient-Focused</strong>
+            <span>Your comfort is our priority</span>
+          </div>
+        </div>
+        <div class="trust-item reveal">
+          <div class="trust-icon-wrap">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="3" fill="#0ea5e9" opacity="0.15" stroke="#0ea5e9" stroke-width="1.8"/><path d="M8 2V6M16 2V6M3 10H21" stroke="#0ea5e9" stroke-width="1.8" stroke-linecap="round"/></svg>
+          </div>
+          <div class="trust-text">
+            <strong>Easy Appointments</strong>
+            <span>Book via WhatsApp instantly</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SECTION 5: ABOUT ========== -->
+    <section class="about-section" id="about" aria-label="About Dr Ankita Clinic">
+      <div class="container about-inner">
+        <div class="about-image-wrap reveal">
+          <!-- IMAGE: Replace ABOUT_SECTION_IMAGE with your image URL -->
+          <!-- EXAMPLE: src="https://i.ibb.co/abc123/clinic-about.jpg" -->
+          <img src="ABOUT_SECTION_IMAGE" alt="Dr Ankita Clinic – modern dental facility interior in Jaipur" class="about-img" loading="lazy" onerror="this.style.display='none'" />
+          <div class="about-img-placeholder" aria-hidden="true"></div>
+          <div class="about-float-card" aria-label="Trust indicator">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 2L4 6V12C4 16.4 7.4 20.5 12 22C16.6 20.5 20 16.4 20 12V6L12 2Z" fill="#0ea5e9"/></svg>
+            <span>Trusted Since Day One</span>
+          </div>
+        </div>
+        <div class="about-content reveal">
+          <div class="section-label">About Our Clinic</div>
+          <h2 class="section-heading">Where Expert Care Meets Modern Dentistry</h2>
+          <p class="about-para">Dr Ankita Clinic is a premier dental facility located on Kalwar Road, Jaipur, dedicated to providing exceptional dental care with a gentle and patient-first approach. We believe that a healthy smile is the foundation of confidence and well-being.</p>
+          <p class="about-para">Our clinic is equipped with modern dental technology and staffed by experienced professionals committed to delivering the highest standard of care in a comfortable and welcoming environment.</p>
+          <ul class="about-checklist" aria-label="Clinic highlights">
+            <li>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#22c55e"/><path d="M8 12L11 15L16 9" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Certified and experienced dental professionals
+            </li>
+            <li>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#22c55e"/><path d="M8 12L11 15L16 9" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Sterile, hygienic and modern facility
+            </li>
+            <li>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#22c55e"/><path d="M8 12L11 15L16 9" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Transparent treatment plans and honest pricing
+            </li>
+            <li>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#22c55e"/><path d="M8 12L11 15L16 9" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Open 11 AM to 8 PM, Monday to Saturday
+            </li>
+          </ul>
+          <a href="#appointment" class="btn btn-primary about-cta">Book a Consultation</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SECTION 6: TREATMENTS ========== -->
+    <section class="treatments-section" id="treatments" aria-label="Dental Treatments">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-label">Our Services</div>
+          <h2 class="section-heading">Comprehensive Dental Treatments</h2>
+        </div>
+        <div class="treatments-grid">
+
+          <div class="treatment-card reveal">
+            <div class="treatment-img-wrap">
+              <!-- IMAGE: Replace TREATMENT_1_IMAGE with your image URL -->
+              <!-- EXAMPLE: src="https://i.ibb.co/abc123/teeth-cleaning.jpg" -->
+              <img src="TREATMENT_1_IMAGE" alt="Teeth Cleaning – professional scaling and polishing at Dr Ankita Clinic" class="treatment-img" loading="lazy" onerror="this.style.display='none'" />
+              <div class="treatment-img-placeholder t1-placeholder" aria-hidden="true"></div>
+              <div class="treatment-icon-badge">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M12 2C8 2 5 5 5 8.5C5 11 6 13 6 15.5C6 19 7.5 22 9.5 22C11 22 11.5 19 12 19C12.5 19 13 22 14.5 22C16.5 22 18 19 18 15.5C18 13 19 11 19 8.5C19 5 16 2 12 2Z" fill="white"/></svg>
+              </div>
+            </div>
+            <div class="treatment-body">
+              <h3 class="treatment-title">Teeth Cleaning</h3>
+              <p class="treatment-desc">Professional scaling and polishing to remove plaque, tartar, and surface stains for a brighter smile.</p>
+            </div>
+          </div>
+
+          <div class="treatment-card reveal">
+            <div class="treatment-img-wrap">
+              <!-- IMAGE: Replace TREATMENT_2_IMAGE with your image URL -->
+              <!-- EXAMPLE: src="https://i.ibb.co/abc123/root-canal.jpg" -->
+              <img src="TREATMENT_2_IMAGE" alt="Root Canal Treatment – pain-free procedure at Dr Ankita Clinic Jaipur" class="treatment-img" loading="lazy" onerror="this.style.display='none'" />
+              <div class="treatment-img-placeholder t2-placeholder" aria-hidden="true"></div>
+              <div class="treatment-icon-badge">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M12 2C8 2 5 5 5 8.5C5 11 6 13 6 15.5C6 19 7.5 22 9.5 22C11 22 11.5 19 12 19C12.5 19 13 22 14.5 22C16.5 22 18 19 18 15.5C18 13 19 11 19 8.5C19 5 16 2 12 2Z" fill="white"/></svg>
+              </div>
+            </div>
+            <div class="treatment-body">
+              <h3 class="treatment-title">Root Canal Treatment</h3>
+              <p class="treatment-desc">Pain-free procedures to save infected teeth and restore full function using modern techniques.</p>
+            </div>
+          </div>
+
+          <div class="treatment-card reveal">
+            <div class="treatment-img-wrap">
+              <!-- IMAGE: Replace TREATMENT_3_IMAGE with your image URL -->
+              <!-- EXAMPLE: src="https://i.ibb.co/abc123/dental-implants.jpg" -->
+              <img src="TREATMENT_3_IMAGE" alt="Dental Implants – permanent tooth replacement at Dr Ankita Clinic" class="treatment-img" loading="lazy" onerror="this.style.display='none'" />
+              <div class="treatment-img-placeholder t3-placeholder" aria-hidden="true"></div>
+              <div class="treatment-icon-badge">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M12 2C8 2 5 5 5 8.5C5 11 6 13 6 15.5C6 19 7.5 22 9.5 22C11 22 11.5 19 12 19C12.5 19 13 22 14.5 22C16.5 22 18 19 18 15.5C18 13 19 11 19 8.5C19 5 16 2 12 2Z" fill="white"/></svg>
+              </div>
+            </div>
+            <div class="treatment-body">
+              <h3 class="treatment-title">Dental Implants</h3>
+              <p class="treatment-desc">Permanent, natural-looking tooth replacements that restore your smile and confidence for life.</p>
+            </div>
+          </div>
+
+          <div class="treatment-card reveal">
+            <div class="treatment-img-wrap">
+              <!-- IMAGE: Replace TREATMENT_4_IMAGE with your image URL -->
+              <!-- EXAMPLE: src="https://i.ibb.co/abc123/braces-aligners.jpg" -->
+              <img src="TREATMENT_4_IMAGE" alt="Braces and Aligners – orthodontic treatment at Dr Ankita Clinic Jaipur" class="treatment-img" loading="lazy" onerror="this.style.display='none'" />
+              <div class="treatment-img-placeholder t4-placeholder" aria-hidden="true"></div>
+              <div class="treatment-icon-badge">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M12 2C8 2 5 5 5 8.5C5 11 6 13 6 15.5C6 19 7.5 22 9.5 22C11 22 11.5 19 12 19C12.5 19 13 22 14.5 22C16.5 22 18 19 18 15.5C18 13 19 11 19 8.5C19 5 16 2 12 2Z" fill="white"/></svg>
+              </div>
+            </div>
+            <div class="treatment-body">
+              <h3 class="treatment-title">Braces / Aligners</h3>
+              <p class="treatment-desc">Corrective orthodontic solutions including traditional braces and clear aligners for aligned teeth.</p>
+            </div>
+          </div>
+
+          <div class="treatment-card reveal">
+            <div class="treatment-img-wrap">
+              <!-- IMAGE: Replace TREATMENT_5_IMAGE with your image URL -->
+              <!-- EXAMPLE: src="https://i.ibb.co/abc123/cosmetic-dentistry.jpg" -->
+              <img src="TREATMENT_5_IMAGE" alt="Cosmetic Dentistry – smile makeovers and teeth whitening at Dr Ankita Clinic" class="treatment-img" loading="lazy" onerror="this.style.display='none'" />
+              <div class="treatment-img-placeholder t5-placeholder" aria-hidden="true"></div>
+              <div class="treatment-icon-badge">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M12 2C8 2 5 5 5 8.5C5 11 6 13 6 15.5C6 19 7.5 22 9.5 22C11 22 11.5 19 12 19C12.5 19 13 22 14.5 22C16.5 22 18 19 18 15.5C18 13 19 11 19 8.5C19 5 16 2 12 2Z" fill="white"/></svg>
+              </div>
+            </div>
+            <div class="treatment-body">
+              <h3 class="treatment-title">Cosmetic Dentistry</h3>
+              <p class="treatment-desc">Smile makeovers, teeth whitening, veneers and cosmetic procedures for your perfect smile.</p>
+            </div>
+          </div>
+
+          <div class="treatment-card reveal">
+            <div class="treatment-img-wrap">
+              <!-- IMAGE: Replace TREATMENT_6_IMAGE with your image URL -->
+              <!-- EXAMPLE: src="https://i.ibb.co/abc123/tooth-extraction.jpg" -->
+              <img src="TREATMENT_6_IMAGE" alt="Tooth Extraction – gentle and safe procedure at Dr Ankita Clinic Jaipur" class="treatment-img" loading="lazy" onerror="this.style.display='none'" />
+              <div class="treatment-img-placeholder t6-placeholder" aria-hidden="true"></div>
+              <div class="treatment-icon-badge">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M12 2C8 2 5 5 5 8.5C5 11 6 13 6 15.5C6 19 7.5 22 9.5 22C11 22 11.5 19 12 19C12.5 19 13 22 14.5 22C16.5 22 18 19 18 15.5C18 13 19 11 19 8.5C19 5 16 2 12 2Z" fill="white"/></svg>
+              </div>
+            </div>
+            <div class="treatment-body">
+              <h3 class="treatment-title">Tooth Extraction</h3>
+              <p class="treatment-desc">Safe, gentle extractions performed with modern anaesthesia for a pain-free experience.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+  </section>    <!-- ========== SECTION 7: DOCTORS ========== -->
+    <section class="doctors-section" id="doctors" aria-label="Our Doctor">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-label">Meet The Doctor</div>
+          <h2 class="section-heading">Expert Care You Can Trust</h2>
+        </div>
+        <div class="doctor-card-wrap reveal">
+          <div class="doctor-card">
+            <div class="doctor-img-wrap">
+              <!-- IMAGE: Replace DOCTOR_PROFILE_IMAGE with your image URL -->
+              <!-- EXAMPLE: src="https://i.ibb.co/abc123/doctor-profile.jpg" -->
+              <img src="DOCTOR_PROFILE_IMAGE" alt="Dr Ankita – Chief Dental Surgeon at Dr Ankita Clinic, Jaipur" class="doctor-img" loading="lazy" onerror="this.style.display='none'" />
+              <div class="doctor-img-placeholder" aria-hidden="true"></div>
+            </div>
+            <div class="doctor-info">
+              <div class="doctor-role-badge">Chief Dental Surgeon</div>
+              <h3 class="doctor-name">Dr. Ankita</h3>
+              <p class="doctor-bio">Dr. Ankita is a highly skilled and compassionate dental professional with years of experience serving patients across Jaipur. She specialises in a wide range of dental treatments and is known for her gentle approach, thorough care, and commitment to patient well-being. Her mission is to ensure every patient leaves with a healthier, more confident smile.</p>
+              <div class="doctor-tags" aria-label="Specialisations">
+                <span class="doc-tag">General Dentistry</span>
+                <span class="doc-tag">Root Canal</span>
+                <span class="doc-tag">Implants</span>
+                <span class="doc-tag">Cosmetics</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SECTION 8: WHY CHOOSE US ========== -->
+    <section class="why-us-section" id="why-us" aria-label="Why Choose Dr Ankita Clinic">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-label">Why Choose Us</div>
+          <h2 class="section-heading">The Dr Ankita Clinic Difference</h2>
+        </div>
+        <div class="why-grid">
+
+          <div class="why-card reveal">
+            <div class="why-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" aria-hidden="true"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26" fill="#0ea5e9" opacity="0.15" stroke="#0ea5e9" stroke-width="1.8" stroke-linejoin="round"/></svg>
+            </div>
+            <h3 class="why-title">Expert Care</h3>
+            <p class="why-desc">Years of experience treating hundreds of patients with precision and compassion.</p>
+          </div>
+
+          <div class="why-card reveal">
+            <div class="why-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2" fill="#0ea5e9" opacity="0.15" stroke="#0ea5e9" stroke-width="1.8"/><path d="M8 21H16M12 17V21" stroke="#0ea5e9" stroke-width="1.8" stroke-linecap="round"/></svg>
+            </div>
+            <h3 class="why-title">Advanced Technology</h3>
+            <p class="why-desc">Modern dental equipment for accurate diagnosis and effective, comfortable treatments.</p>
+          </div>
+
+          <div class="why-card reveal">
+            <div class="why-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 2L4 6V12C4 16.4 7.4 20.5 12 22C16.6 20.5 20 16.4 20 12V6L12 2Z" fill="#0ea5e9" opacity="0.15" stroke="#0ea5e9" stroke-width="1.8" stroke-linejoin="round"/></svg>
+            </div>
+            <h3 class="why-title">Hygiene &amp; Safety</h3>
+            <p class="why-desc">Strict sterilization protocols and a spotlessly clean clinic environment at all times.</p>
+          </div>
+
+          <div class="why-card reveal">
+            <div class="why-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="#0ea5e9" opacity="0.15" stroke="#0ea5e9" stroke-width="1.8"/><circle cx="12" cy="10" r="3" stroke="#0ea5e9" stroke-width="1.8"/><path d="M6 20C6 17.8 8.7 16 12 16C15.3 16 18 17.8 18 20" stroke="#0ea5e9" stroke-width="1.8" stroke-linecap="round"/></svg>
+            </div>
+            <h3 class="why-title">Transparent Guidance</h3>
+            <p class="why-desc">We explain every procedure clearly so you always know what to expect and why.</p>
+          </div>
+
+          <div class="why-card reveal">
+            <div class="why-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="#0ea5e9" opacity="0.15" stroke="#0ea5e9" stroke-width="1.8"/><path d="M8 14C8 14 9.5 16 12 16C14.5 16 16 14 16 14" stroke="#0ea5e9" stroke-width="1.8" stroke-linecap="round"/><circle cx="9" cy="11" r="1" fill="#0ea5e9"/><circle cx="15" cy="11" r="1" fill="#0ea5e9"/></svg>
+            </div>
+            <h3 class="why-title">Comfortable Experience</h3>
+            <p class="why-desc">Gentle, patient-first approach that ensures you feel calm and cared for throughout.</p>
+          </div>
+
+          <div class="why-card reveal">
+            <div class="why-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M17 21V19C17 16.8 15.2 15 13 15H5C2.8 15 1 16.8 1 19V21" stroke="#0ea5e9" stroke-width="1.8" stroke-linecap="round"/><circle cx="9" cy="9" r="4" fill="#0ea5e9" opacity="0.15" stroke="#0ea5e9" stroke-width="1.8"/><path d="M23 21V19C23 17.1 21.7 15.5 20 15.1M16 3.1C17.7 3.5 19 5.1 19 7C19 8.9 17.7 10.5 16 10.9" stroke="#0ea5e9" stroke-width="1.8" stroke-linecap="round"/></svg>
+            </div>
+            <h3 class="why-title">Personalised Treatment</h3>
+            <p class="why-desc">Every treatment plan is customised specifically for your unique dental needs and goals.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SECTION 9: GALLERY ========== -->
+    <section class="gallery-section" id="gallery" aria-label="Clinic Gallery">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-label">Our Gallery</div>
+          <h2 class="section-heading">A Glimpse of Our Clinic</h2>
+        </div>
+        <div class="gallery-grid">
+
+          <div class="gallery-card reveal">
+            <!-- IMAGE: Replace GALLERY_1_IMAGE with your image URL -->
+            <!-- EXAMPLE: src="https://i.ibb.co/abc123/gallery1.jpg" -->
+            <img src="GALLERY_1_IMAGE" alt="Dr Ankita Clinic gallery image 1 – dental treatment room" class="gallery-img" loading="lazy" onerror="this.style.display='none'" />
+            <div class="gallery-placeholder g1-placeholder" aria-hidden="true"></div>
+            <div class="gallery-overlay" aria-hidden="true">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none"><circle cx="11" cy="11" r="7" stroke="white" stroke-width="2"/><path d="M16.5 16.5L21 21" stroke="white" stroke-width="2" stroke-linecap="round"/><path d="M11 8V14M8 11H14" stroke="white" stroke-width="2" stroke-linecap="round"/></svg>
+            </div>
+          </div>
+
+          <div class="gallery-card reveal">
+            <!-- IMAGE: Replace GALLERY_2_IMAGE with your image URL -->
+            <!-- EXAMPLE: src="https://i.ibb.co/abc123/gallery2.jpg" -->
+            <img src="GALLERY_2_IMAGE" alt="Dr Ankita Clinic gallery image 2 – modern dental equipment" class="gallery-img" loading="lazy" onerror="this.style.display='none'" />
+            <div class="gallery-placeholder g2-placeholder" aria-hidden="true"></div>
+            <div class="gallery-overlay" aria-hidden="true">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none"><circle cx="11" cy="11" r="7" stroke="white" stroke-width="2"/><path d="M16.5 16.5L21 21" stroke="white" stroke-width="2" stroke-linecap="round"/><path d="M11 8V14M8 11H14" stroke="white" stroke-width="2" stroke-linecap="round"/></svg>
+            </div>
+          </div>
+
+          <div class="gallery-card reveal">
+            <!-- IMAGE: Replace GALLERY_3_IMAGE with your image URL -->
+            <!-- EXAMPLE: src="https://i.ibb.co/abc123/gallery3.jpg" -->
+            <img src="GALLERY_3_IMAGE" alt="Dr Ankita Clinic gallery image 3 – clinic reception area" class="gallery-img" loading="lazy" onerror="this.style.display='none'" />
+            <div class="gallery-placeholder g3-placeholder" aria-hidden="true"></div>
+            <div class="gallery-overlay" aria-hidden="true">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none"><circle cx="11" cy="11" r="7" stroke="white" stroke-width="2"/><path d="M16.5 16.5L21 21" stroke="white" stroke-width="2" stroke-linecap="round"/><path d="M11 8V14M8 11H14" stroke="white" stroke-width="2" stroke-linecap="round"/></svg>
+            </div>
+          </div>
+
+          <div class="gallery-card reveal">
+            <!-- IMAGE: Replace GALLERY_4_IMAGE with your image URL -->
+            <!-- EXAMPLE: src="https://i.ibb.co/abc123/gallery4.jpg" -->
+            <img src="GALLERY_4_IMAGE" alt="Dr Ankita Clinic gallery image 4 – dental consultation" class="gallery-img" loading="lazy" onerror="this.style.display='none'" />
+            <div class="gallery-placeholder g4-placeholder" aria-hidden="true"></div>
+            <div class="gallery-overlay" aria-hidden="true">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none"><circle cx="11" cy="11" r="7" stroke="white" stroke-width="2"/><path d="M16.5 16.5L21 21" stroke="white" stroke-width="2" stroke-linecap="round"/><path d="M11 8V14M8 11H14" stroke="white" stroke-width="2" stroke-linecap="round"/></svg>
+            </div>
+          </div>
+
+          <div class="gallery-card reveal">
+            <!-- IMAGE: Replace GALLERY_5_IMAGE with your image URL -->
+            <!-- EXAMPLE: src="https://i.ibb.co/abc123/gallery5.jpg" -->
+            <img src="GALLERY_5_IMAGE" alt="Dr Ankita Clinic gallery image 5 – patient care" class="gallery-img" loading="lazy" onerror="this.style.display='none'" />
+            <div class="gallery-placeholder g5-placeholder" aria-hidden="true"></div>
+            <div class="gallery-overlay" aria-hidden="true">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none"><circle cx="11" cy="11" r="7" stroke="white" stroke-width="2"/><path d="M16.5 16.5L21 21" stroke="white" stroke-width="2" stroke-linecap="round"/><path d="M11 8V14M8 11H14" stroke="white" stroke-width="2" stroke-linecap="round"/></svg>
+            </div>
+          </div>
+
+          <div class="gallery-card reveal">
+            <!-- IMAGE: Replace GALLERY_6_IMAGE with your image URL -->
+            <!-- EXAMPLE: src="https://i.ibb.co/abc123/gallery6.jpg" -->
+            <img src="GALLERY_6_IMAGE" alt="Dr Ankita Clinic gallery image 6 – smile transformation" class="gallery-img" loading="lazy" onerror="this.style.display='none'" />
+            <div class="gallery-placeholder g6-placeholder" aria-hidden="true"></div>
+            <div class="gallery-overlay" aria-hidden="true">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none"><circle cx="11" cy="11" r="7" stroke="white" stroke-width="2"/><path d="M16.5 16.5L21 21" stroke="white" stroke-width="2" stroke-linecap="round"/><path d="M11 8V14M8 11H14" stroke="white" stroke-width="2" stroke-linecap="round"/></svg>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SECTION 10: APPOINTMENT FORM ========== -->
+    <section class="appointment-section" id="appointment" aria-label="Book Appointment">
+      <div class="container appt-inner">
+        <div class="appt-info reveal">
+          <div class="section-label light">Book Appointment</div>
+          <h2 class="section-heading white">Ready for Your Best Smile?</h2>
+          <p class="appt-sub">Fill in the form and we will send your appointment request directly to our doctor via WhatsApp. Expect a quick response within hours.</p>
+          <div class="appt-trust-list" aria-label="Appointment benefits">
+            <div class="appt-trust-item">
+              <div class="appt-trust-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="3" fill="white" opacity="0.2" stroke="white" stroke-width="1.8"/><path d="M8 2V6M16 2V6M3 10H21" stroke="white" stroke-width="1.8" stroke-linecap="round"/></svg>
+              </div>
+              <span>Flexible Appointment Slots</span>
+            </div>
+            <div class="appt-trust-item">
+              <div class="appt-trust-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="white" opacity="0.2" stroke="white" stroke-width="1.8"/><path d="M12 7V12L15 15" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </div>
+              <span>Quick Response Within Hours</span>
+            </div>
+            <div class="appt-trust-item">
+              <div class="appt-trust-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 2L4 6V12C4 16.4 7.4 20.5 12 22C16.6 20.5 20 16.4 20 12V6L12 2Z" fill="white" opacity="0.2" stroke="white" stroke-width="1.8" stroke-linejoin="round"/></svg>
+              </div>
+              <span>Safe &amp; Hygienic Environment</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="appt-form-wrap reveal">
+          <form class="appt-form" id="appointmentForm" novalidate onsubmit="return false;">
+            <h3 class="form-title">Request Your Appointment</h3>
+
+            <div class="form-group">
+              <label for="fName" class="form-label">Full Name <span class="req-star" aria-hidden="true">*</span></label>
+              <input type="text" id="fName" name="fName" class="form-input" placeholder="Enter your full name" autocomplete="name" required aria-required="true" aria-describedby="errName" />
+              <span class="form-error" id="errName" role="alert" aria-live="polite">Please enter your full name.</span>
+            </div>
+
+            <div class="form-group">
+              <label for="fMobile" class="form-label">Mobile Number <span class="req-star" aria-hidden="true">*</span></label>
+              <input type="tel" id="fMobile" name="fMobile" class="form-input" placeholder="Enter your mobile number" autocomplete="tel" required aria-required="true" aria-describedby="errMobile" />
+              <span class="form-error" id="errMobile" role="alert" aria-live="polite">Please enter a valid mobile number.</span>
+            </div>
+
+            <div class="form-group">
+              <label for="fTreatment" class="form-label">Preferred Treatment <span class="req-star" aria-hidden="true">*</span></label>
+              <select id="fTreatment" name="fTreatment" class="form-select" required aria-required="true" aria-describedby="errTreat">
+                <option value="" disabled selected>Select Treatment / Case</option>
+                <option value="Teeth Cleaning">Teeth Cleaning</option>
+                <option value="Root Canal Treatment">Root Canal Treatment</option>
+                <option value="Dental Implants">Dental Implants</option>
+                <option value="Braces / Aligners">Braces / Aligners</option>
+                <option value="Cosmetic Dentistry">Cosmetic Dentistry</option>
+                <option value="Tooth Extraction">Tooth Extraction</option>
+                <option value="General Checkup">General Checkup</option>
+                <option value="Other / Not Sure">Other / Not Sure</option>
+              </select>
+              <span class="form-error" id="errTreat" role="alert" aria-live="polite">Please select a treatment.</span>
+            </div>
+
+            <div class="form-group">
+              <label for="fMsg" class="form-label">Message <span class="form-optional">(Optional)</span></label>
+              <textarea id="fMsg" name="fMsg" class="form-textarea" rows="4" placeholder="Any additional details or questions..."></textarea>
+            </div>
+
+            <button type="button" class="btn btn-whatsapp-submit" onclick="submitAppointment()">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" fill="white"/><path d="M12 2C6.48 2 2 6.48 2 12C2 13.85 2.51 15.55 3.38 17L2 22L7.18 20.64C8.56 21.45 10.22 21.92 12 21.92C17.52 21.92 22 17.44 22 11.92C22 6.48 17.52 2 12 2Z" stroke="white" stroke-width="1.5" fill="none"/></svg>
+              Send via WhatsApp
+            </button>
+            <p class="form-note">Your details will be sent directly to the doctor's WhatsApp</p>
+          </form>
+        </div>
+      </div>
+                                                </section>    <!-- ========== SECTION 11: CONTACT ========== -->
+    <section class="contact-section" id="contact" aria-label="Contact Dr Ankita Clinic">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-label">Contact Us</div>
+          <h2 class="section-heading">Get In Touch With Us</h2>
+        </div>
+        <div class="contact-inner">
+
+          <div class="contact-cards reveal">
+            <a href="tel:+917568394979" class="contact-card" aria-label="Call Dr Ankita Clinic">
+              <div class="contact-card-icon">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6.6 10.8C7.8 13.2 9.8 15.2 12.2 16.4L14.2 14.4C14.5 14.1 14.9 14 15.3 14.2C16.5 14.6 17.9 14.8 19.2 14.8C19.9 14.8 20.4 15.3 20.4 16V19.2C20.4 19.9 19.9 20.4 19.2 20.4C10.6 20.4 3.6 13.4 3.6 4.8C3.6 4.1 4.1 3.6 4.8 3.6H8C8.7 3.6 9.2 4.1 9.2 4.8C9.2 6.1 9.4 7.4 9.8 8.7C9.9 9.1 9.8 9.5 9.6 9.8L6.6 10.8Z" fill="#0ea5e9"/></svg>
+              </div>
+              <div class="contact-card-text">
+                <strong>Call Us</strong>
+                <span>+91 75683 94979</span>
+              </div>
+            </a>
+
+            <a href="https://wa.me/917568394979" target="_blank" rel="noopener noreferrer" class="contact-card" aria-label="WhatsApp Dr Ankita Clinic">
+              <div class="contact-card-icon whatsapp-icon">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" fill="#25D366"/><path d="M12 2C6.48 2 2 6.48 2 12C2 13.85 2.51 15.55 3.38 17L2 22L7.18 20.64C8.56 21.45 10.22 21.92 12 21.92C17.52 21.92 22 17.44 22 11.92C22 6.48 17.52 2 12 2Z" stroke="#25D366" stroke-width="1.5" fill="none"/></svg>
+              </div>
+              <div class="contact-card-text">
+                <strong>WhatsApp</strong>
+                <span>+91 75683 94979</span>
+              </div>
+            </a>
+
+            <div class="contact-card no-link" aria-label="Opening Hours">
+              <div class="contact-card-icon hours-icon">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="#0ea5e9" opacity="0.15" stroke="#0ea5e9" stroke-width="1.8"/><path d="M12 7V12L15 15" stroke="#0ea5e9" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </div>
+              <div class="contact-card-text">
+                <strong>Opening Hours</strong>
+                <span>11 AM – 8 PM, Mon–Sat</span>
+              </div>
+            </div>
+
+            <div class="contact-card no-link" aria-label="Our Address">
+              <div class="contact-card-icon address-icon">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9C5 14.25 12 22 12 22C12 22 19 14.25 19 9C19 5.13 15.87 2 12 2ZM12 11.5C10.62 11.5 9.5 10.38 9.5 9C9.5 7.62 10.62 6.5 12 6.5C13.38 6.5 14.5 7.62 14.5 9C14.5 10.38 13.38 11.5 12 11.5Z" fill="#0ea5e9"/></svg>
+              </div>
+              <div class="contact-card-text">
+                <strong>Address</strong>
+                <span>Kalwar Rd, Royal City, Jaipur, Manchwa, Rajasthan 302012</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-map-wrap reveal">
+            <div class="contact-address-block">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9C5 14.25 12 22 12 22C12 22 19 14.25 19 9C19 5.13 15.87 2 12 2ZM12 11.5C10.62 11.5 9.5 10.38 9.5 9C9.5 7.62 10.62 6.5 12 6.5C13.38 6.5 14.5 7.62 14.5 9C14.5 10.38 13.38 11.5 12 11.5Z" fill="#0ea5e9"/></svg>
+              <div>
+                <strong>Dr Ankita Clinic</strong>
+                <p>Kalwar Rd, Royal City, Jaipur,<br/>Manchwa, Rajasthan 302012</p>
+              </div>
+            </div>
+            <div class="map-placeholder" role="region" aria-label="Map location placeholder">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9C5 14.25 12 22 12 22C12 22 19 14.25 19 9C19 5.13 15.87 2 12 2ZM12 11.5C10.62 11.5 9.5 10.38 9.5 9C9.5 7.62 10.62 6.5 12 6.5C13.38 6.5 14.5 7.62 14.5 9C14.5 10.38 13.38 11.5 12 11.5Z" fill="#0ea5e9"/></svg>
+              <p>Map Location</p>
+              <span>Kalwar Road, Royal City, Jaipur</span>
+              <a href="https://maps.google.com/?q=Kalwar+Road+Royal+City+Jaipur+Rajasthan" target="_blank" rel="noopener noreferrer" class="btn btn-outline map-btn">View on Google Maps</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== SECTION 12: FOOTER ========== -->
+  <footer class="site-footer" aria-label="Site footer">
+    <div class="container footer-inner">
+      <div class="footer-col footer-brand">
+        <div class="footer-logo">
+          <svg width="34" height="34" viewBox="0 0 36 36" fill="none" aria-hidden="true"><circle cx="18" cy="18" r="18" fill="white" opacity="0.1"/><path d="M18 6C14 6 10 9.5 10 13.5C10 16 11 18 11 20.5C11 24 12.5 30 14.5 30C16 30 16.5 27 18 27C19.5 27 20 30 21.5 30C23.5 30 25 24 25 20.5C25 18 26 16 26 13.5C26 9.5 22 6 18 6Z" fill="#0ea5e9"/></svg>
+          <span>Dr Ankita Clinic</span>
+        </div>
+        <p class="footer-tagline">Modern dental care for a confident, healthy smile — right on Kalwar Road, Jaipur.</p>
+      </div>
+
+      <div class="footer-col footer-links">
+        <h4 class="footer-heading">Quick Links</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#treatments">Treatments</a></li>
+          <li><a href="#doctors">Doctors</a></li>
+          <li><a href="#why-us">Why Us</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-contact-info">
+        <h4 class="footer-heading">Contact</h4>
+        <ul class="footer-contact-list">
+          <li>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6.6 10.8C7.8 13.2 9.8 15.2 12.2 16.4L14.2 14.4C14.5 14.1 14.9 14 15.3 14.2C16.5 14.6 17.9 14.8 19.2 14.8C19.9 14.8 20.4 15.3 20.4 16V19.2C20.4 19.9 19.9 20.4 19.2 20.4C10.6 20.4 3.6 13.4 3.6 4.8C3.6 4.1 4.1 3.6 4.8 3.6H8C8.7 3.6 9.2 4.1 9.2 4.8C9.2 6.1 9.4 7.4 9.8 8.7C9.9 9.1 9.8 9.5 9.6 9.8L6.6 10.8Z" fill="#0ea5e9"/></svg>
+            <a href="tel:+917568394979">+91 75683 94979</a>
+          </li>
+          <li>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" fill="#25D366"/></svg>
+            <a href="https://wa.me/917568394979" target="_blank" rel="noopener noreferrer">WhatsApp Us</a>
+          </li>
+          <li>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9C5 14.25 12 22 12 22C12 22 19 14.25 19 9C19 5.13 15.87 2 12 2Z" fill="#0ea5e9"/></svg>
+            <span>Kalwar Rd, Royal City, Jaipur, Manchwa, Rajasthan 302012</span>
+          </li>
+          <li>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="#0ea5e9" stroke-width="1.8"/><path d="M12 7V12L15 15" stroke="#0ea5e9" stroke-width="1.8" stroke-linecap="round"/></svg>
+            <span>11 AM – 8 PM, Mon–Sat</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <span class="footer-copy">© 2025 Dr Ankita Clinic. All rights reserved.</span>
+        <span class="footer-love">Made with ♥ for better smiles</span>
+        <button class="footer-back-top" id="footerBackTop" aria-label="Back to top">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 19V5M5 12L12 5L19 12" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          Top
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========== SECTION 13: FLOATING WHATSAPP BUTTON ========== -->
+  <a href="https://wa.me/917568394979?text=Hello%2C%20I%20want%20to%20book%20an%20appointment." target="_blank" rel="noopener noreferrer" class="float-btn float-whatsapp" aria-label="Chat on WhatsApp" title="Chat on WhatsApp">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" fill="white"/><path d="M12 2C6.48 2 2 6.48 2 12C2 13.85 2.51 15.55 3.38 17L2 22L7.18 20.64C8.56 21.45 10.22 21.92 12 21.92C17.52 21.92 22 17.44 22 11.92C22 6.48 17.52 2 12 2Z" stroke="white" stroke-width="1.5" fill="none"/></svg>
+    <span class="float-tooltip">Chat on WhatsApp</span>
+  </a>
+
+  <!-- ========== SECTION 14: FLOATING CALL BUTTON ========== -->
+  <a href="tel:+917568394979" class="float-btn float-call" aria-label="Call Us Now" title="Call Us Now">
+    <svg width="26" height="26" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6.6 10.8C7.8 13.2 9.8 15.2 12.2 16.4L14.2 14.4C14.5 14.1 14.9 14 15.3 14.2C16.5 14.6 17.9 14.8 19.2 14.8C19.9 14.8 20.4 15.3 20.4 16V19.2C20.4 19.9 19.9 20.4 19.2 20.4C10.6 20.4 3.6 13.4 3.6 4.8C3.6 4.1 4.1 3.6 4.8 3.6H8C8.7 3.6 9.2 4.1 9.2 4.8C9.2 6.1 9.4 7.4 9.8 8.7C9.9 9.1 9.8 9.5 9.6 9.8L6.6 10.8Z" fill="white"/></svg>
+    <span class="float-tooltip">Call Us Now</span>
+  </a>
+
+  <!-- ========== SECTION 15: BACK TO TOP BUTTON ========== -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 19V5M5 12L12 5L19 12" stroke="white" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+                </html>
